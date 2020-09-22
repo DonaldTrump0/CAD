@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{22303321-9407-456c-bf52-10b49efd11ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UndoRedo">
+      <UniqueIdentifier>{2f13559e-907b-48cc-a128-71c70ab8145a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CADDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CADView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLine.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CEllipse.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="IShape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CPenBrushDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoveOperation.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+    <ClInclude Include="IOperation.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddOperation.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+    <ClInclude Include="COperationManager.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteOperation.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapeInfoEditView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRotateOperation.h">
+      <Filter>UndoRedo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CADDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CADView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLine.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CEllipse.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="IShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CPenBrushDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoveOperation.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+    <ClCompile Include="IOperation.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddOperation.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+    <ClCompile Include="COperationManager.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteOperation.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+    <ClCompile Include="CShapeInfoEditView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRotateOperation.cpp">
+      <Filter>UndoRedo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CAD.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CAD.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CADDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CAD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
